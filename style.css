@@ -17,7 +17,7 @@
 /* header  */
 .header-area {
   height: 700px;
-  background-image: url("./images/banner/banner3.png");
+  background-image: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -104,7 +104,7 @@
   padding: 50px;
   border-radius: 10px;
   align-items: center;
-  background-image: url("./images/gradient1.png"), url("./images/watch.png");
+  background-image: url("../images/gradient1.png"), url("../images/watch.png");
 }
 .positive-mindset .section-title {
   font-weight: 700;
