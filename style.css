@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-primary {
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+/* header  */
+.header-area {
+  height: 700px;
+  background-image: url("/images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner {
+  width: 40%;
+  float: right;
+  margin: 0px 100px;
+  text-align: right;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.banner-title {
+  font-weight: 600;
+  font-size: 55px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.banner-description {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* failour of previous year  */
+
+.failur-list {
+  margin: 50px 100px;
+  display: flex;
+  align-items: center;
+}
+
+.failur-heading {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.failur-description {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #444343;
+}
+
+.failur-list-item {
+  color: #444343;
+}
+.failur-list-item p:before {
+  content: "✓";
+  color: #16d887;
+}
+
+.failur-body {
+  padding: 50px;
+}
+
+/* Planning section */
+.plan .section-title {
+  font-weight: 600;
+  font-size: 45px;
+  text-align: center;
+}
+.plan-info-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0px;
+  text-align: center;
+}
+.plan .info-title {
+  font-size: 25px;
+  margin: 10px 0;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+
+/* Image Style */
+.positive-mindset {
+  height: 200px;
+  margin: 100px 200px;
+  padding: 50px;
+  border-radius: 10px;
+  align-items: center;
+  background-image: url("/images/gradient1.png"), url("/images/watch.png");
+}
+.positive-mindset .section-title {
+  font-weight: 700;
+  font-size: 35px;
+  width: 60%;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Contact styles */
+.contact {
+  display: flex;
+  gap: 50px;
+  background: black;
+  border: 0;
+  width: 100%;
+  padding: 50px 100px;
+}
+.contact .section-title,
+.section-description {
+  color: white;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.contact-area {
+  width: 50%;
+}
+input[type="email"] {
+  height: 50px;
+  color: white;
+  width: 250px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact-area .section-title {
+  font-weight: 700;
+  font-size: 25px;
+}
